@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uninter Community - Ciência da Computação</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- CABEÇALHO / NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-globe"></i>
+                <div class="logo-text">
+                    <span class="logo-title">Uninter Community</span>
+                    <span class="logo-subtitle">CIÊNCIA DA COMPUTAÇÃO</span>
+                </div>
+            </div>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#inicio" class="active">INICIO</a>
+                <a href="#guias">GUIAS</a>
+                <a href="#sobre">SOBRE</a>
+                <a href="#comunidade">COMUNIDADE</a>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Pesquisar...">
+                    <button id="searchBtn" aria-label="Pesquisar" title="Pesquisar"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <a href="#guias" class="btn-iniciar">Iniciar</a>
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Bem-vindo ao Uninter Community</h1>
+                <h2>Ciências da computação</h2>
+                <p>Nosso objetivo é ajudar estudantes a alcançar seus objetivos acadêmicos, auxiliando nossos colegas com facilidade. Aqui, você encontra dicas de estudo, tutoriais, ferramentas e recursos personalizados para cada etapa da sua jornada. Quer esteja começando a faculdade ou caminhando para seu último ano acadêmico, nosso guia está aqui para te acompanhar. Vamos oferecer o suporte necessário e estamos sempre abertos a sugestões para melhorar sua experiência!</p>
+                <div class="hero-buttons">
+                    <a href="#guias" class="btn-primary">Iniciar</a>
+                    <a href="#sobre" class="btn-secondary">About-us</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="academic-card-visual">
+                    <div class="book-spine">Algorithms</div>
+                    <div class="book-spine">Domain Driven Design</div>
+                    <div class="book-spine">Clean Architecture</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE NÓS -->
+    <section id="sobre" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge-red"><i class="fa-solid fa-bookmark"></i> Sobre nós</span>
+                <h3>Um guia completo desenvolvido por estudantes para facilitar a integração e o aprendizado na comunidade acadêmica</h3>
+            </div>
+            <div class="about-grid">
+                <div class="about-img-box">
+                    <div class="stack-books-img">
+                        <div class="book-stack-item"><span>Introduction to</span> <strong>ALGORITHMS</strong></div>
+                        <div class="book-stack-item"><span>Domain</span> <strong>DESIGN</strong></div>
+                        <div class="book-stack-item">Clean Architecture</div>
+                        <div class="book-stack-item">Release It!</div>
+                        <div class="book-stack-item">Pragmatic Thinking & Learning</div>
+                    </div>
+                </div>
+                <div class="about-text-box">
+                    <p>Este projeto foi criado para auxiliar os alunos do curso de Ciência da Computação da Faculdade Uninter, servindo como um guia completo para a introdução à comunidade acadêmica. Idealizado e mantido por alunos do próprio curso, o site oferece recursos úteis, como links para materiais de estudo, instruções sobre processos acadêmicos, e informações sobre a composição da comunidade.</p>
+                    <p>A comunidade é apoiada oficialmente pela instituição, pela coordenação do curso e pelo representante discente no colegiado, promovendo uma integração mais fácil e eficaz dos alunos. Além disso, o site é atualizado periodicamente, trazendo novidades e melhorias que ajudam a alinhar o conteúdo com as necessidades dos estudantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE REQUISITOS E RECURSOS (R01 a R06) -->
+    <section id="guias" class="features-section">
+        <div class="container">
+            <div class="section-title-center">
+                <h2>Portal Acadêmico e Guias</h2>
+                <p>Navegue pelos recursos essenciais para o seu desenvolvimento acadêmico e profissional.</p>
+            </div>
+
+            <div class="cards-grid">
+                <!-- R01 - Ambiente de Apoio Acadêmico -->
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3>Ambiente de Apoio Acadêmico</h3>
+                    <p>Portal centralizado com ferramentas, links do UNIVIRTUS, secretaria online e tutoriais rápidos para auxiliar na sua rotina acadêmica.</p>
+                    <a href="#" class="card-link">Acessar portal <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- R02 - Turmas e Grupos de Estudo -->
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-users-rectangle"></i></div>
+                    <h3>Turmas & Grupos de Estudo</h3>
+                    <p>Informações organizadas sobre turmas por polo, horários de monitoria, salas de aula virtuais e grupos focados em matérias específicas.</p>
+                    <a href="#" class="card-link">Ver turmas <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- R03 - Dicas e Artigos sobre Estudos -->
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Dicas & Artigos de Estudo</h3>
+                    <p>Área dedicada a técnicas de produtividade (Pomodoro, mapas mentais), tutoriais práticos de programação e artigos úteis.</p>
+                    <a href="#" class="card-link">Ler artigos <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- R04 - Canais de Comunicação -->
+                <div class="feature-card" id="comunidade">
+                    <div class="card-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Canais de Comunicação</h3>
+                    <p>Listagem clara com os principais canais oficiais e estudantis da comunidade no Discord, grupos de WhatsApp e fóruns de dúvidas.</p>
+                    <a href="#" class="card-link">Conectar-se <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- R05 - Regras da Comunidade -->
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Regras da Comunidade</h3>
+                    <p>Diretrizes de convivência, código de conduta e normas de respeito mútuo para manter um ambiente saudável e colaborativo para todos.</p>
+                    <a href="#" class="card-link">Ver diretrizes <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- R06 - Curso e Mercado de Trabalho -->
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3>Curso & Mercado de Trabalho</h3>
+                    <p>Orientações detalhadas sobre a grade curricular, dicas de carreira, preparação para estágios e exigências atuais do mercado tech.</p>
+                    <a href="#" class="card-link">Explorar carreira <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-globe"></i>
+                <span>Uninter Community - Ciências da Computação</span>
+            </div>
+            <p>&copy; 2026 Uninter Community. Desenvolvido por estudantes para estudantes.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
